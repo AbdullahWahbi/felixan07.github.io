@@ -1,0 +1,156 @@
+#title {
+  background-color: #ff4c68;
+}
+.motto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+#tindog {
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 3% 15% 0 15% !important;
+  display: inline-block;
+}
+.rotate-img {
+  transform: rotate(25deg);
+  width: 73%;
+  position: relative;
+  z-index: 0.1;
+  top: 6%;
+  left: 15%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.tinfeature {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.fticons {
+  text-align: center;
+  color: #ef8172;
+  display: inline-block;
+  width: 100%;
+  font-size: 400%;
+}
+.ftparagraph {
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 1.1rem;
+}
+.fticons:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-motto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+h2,
+h3,
+p {
+  text-align: center;
+}
+.card {
+  padding: 0 !important;
+}
+.sign-up {
+  display: inline-block;
+  width: 100%;
+}
+#pricing {
+  font-family: "Montserrat", sans-serif;
+  padding: 100px;
+}
+p {
+  color: #8f8f8f;
+}
+.pricing-p {
+  padding-bottom: 1rem;
+}
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  bottom: 7rem;
+}
+.container-flui {
+  padding: 5% 15% 0 15% !important;
+}
+
+@media (max-width: 1028px) {
+  .rotate-img {
+    transform: rotate(0);
+    position: static;
+    margin-top: 1rem;
+  }
+  #title {
+    text-align: center;
+  }
+}
+@media (max-width: 1110px) and (min-width: 986px) {
+  .motto {
+    font-size: 2.6rem;
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 20% 15%;
+  text-align: center;
+}
+#last-motto {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.footer-btn {
+  text-align: center;
+  margin-top: 6%;
+  margin-left: 2%;
+}
+#footer {
+  background-color: #fff;
+  margin: 5% 20%;
+  text-align: center;
+  font-size: 70%;
+}
+.footer-icons {
+  padding-left: 2%;
+  text-align: center;
+  padding-bottom: 2%;
+}
